@@ -7,6 +7,6 @@ setup(
     version="1.0",
     description="%module%",
     author="%author%",
-    packages=["%module%", "%module%.%module%"],
+    packages=["%module%"],
     entry_points={"console_scripts": ["%module%=%module%.__main__:main"]},
 )
